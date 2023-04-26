@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+     
+  overflow: hidden;
+}
+
+img {
+    max-width: auto;
+    height: 100px;
+    float: left;
+}
+
+ul{
+    /* float: right; */
+    /* margin-right: 500px; */
+    display: flex;
+    align-content: end;
+    justify-content: end;
+    /* text-align: right; */
+}
+
+li{
+    text-align: end;
+    list-style: none;
+}
+
+nav a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.navbar {
+    background-color: black;
+    width: 100%;
+    padding: 15px 10px 0;
+}
+.navbar a {
+    border: 2px solid whitesmoke;
+    display: flex;
+    float: left;
+    padding:  20px;
+    justify-content: space-between;
+    
+} 
+body {
+    background-color: rgb(196, 220, 250);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    overflow: hidden;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.images {
+    height: 250px;
+    margin-right: 30px;
+}
+
+.grid-container {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: auto auto;
+    /*background-color: rgb(241, 244, 223);*/
+    padding: 150px;
+}
+
+.grid-item2 .grid-item4, .grid-item6, .grid-item8{
+    padding: 50px;
+    font-size: larger;
+    text-align: left;
+}
+.grid-item1, .grid-item3, .grid-item5, .grid-item7{
+ gap: 20px 10px;
+}
